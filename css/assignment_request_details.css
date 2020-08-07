@@ -1,0 +1,158 @@
+@font-face{
+	font-family: Titillium Web SemiBold;
+	src : url(../ext_fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+	font-family: Titillium Web;
+	src : url(../ext_fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+	font-family: Titillium Web Bold;
+	src : url(../ext_fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face{
+	font-family: Titillium Web Italic;
+	src : url(../ext_fonts/TitilliumWeb-RegularItalic.ttf);
+}
+.twsfont{
+	font-family:Titillium Web SemiBold;
+}
+.twrfont{
+	font-family:Titillium Web;
+}
+.twbfont{
+	font-family:Titillium Web Bold;
+}
+.twifont{
+	font-family:Titillium Web Italic;
+}
+#myModal{
+	padding-right:115px;
+}
+.myModal{
+	//box-shadow:0px 0px 5px 0px lightgrey;
+	border-radius:30px;
+	background-color: #f5f5f5;
+	width:115%;
+}
+.modal-title{
+	margin-left:25px;
+	margin-bottom:10px;
+	float:left;
+}
+.modal .close{
+	margin-top:10px;
+}
+.messages-close-icon{
+	width:25px;
+}
+.text_area{
+	line-height:1.2;
+	padding-top:17px;
+	border-top:1px solid #000;
+	margin-left:25px;
+	margin-right:25px;
+}
+.tags_box{
+	margin-left:25px;
+	margin-right:25px;
+}
+.tags_box_single{
+	margin-right:50px;
+	float:left;
+}
+.ass-modal-header{
+	margin-right:25px;
+}
+.checkbox{
+	float:left;
+	margin-top:5px;
+	margin-right:20px;
+}
+.footer_buttons_box{
+	margin-right:25px;
+	margin-bottom:20px;
+	margin-top:30px;
+	float:right;
+}
+.btn_accept{
+	border:1.4px solid #21ce99;
+	background-color:#21ce99;
+	color:#fff;
+	font-family:Titillium Web Bold;
+	border-radius:20px;
+	padding:.375rem 25px;
+}
+.btn_accept:hover{
+	background-color:#f5f5f5;
+	color:#21ce99;
+}
+.btn_decline{
+	border:1.4px solid #ff335b;
+	background-color:#f5f5f5;
+	color:#ff335b;
+	font-family:Titillium Web Bold;
+	border-radius:20px;
+	padding:.375rem 20px;
+	margin-left:20px;
+}
+.btn_decline:hover{
+	background-color:#ff335b;
+	color:#f5f5f5;
+}
+.modal_2_part_2{
+	line-height:1;
+	text-align:center;
+	margin-top:10px;
+}
+.btn_no{
+	border-radius:20px;
+	border:1.4px solid #ff335b;
+	color:#ff335b;
+	font-family:Titillium Web Bold;
+	background-color:#f5f5f5;
+	padding:.375rem 20px;
+}
+.btn_yes{
+	border-radius:20px;
+	border:1.4px solid #21ce99;
+	color:#fff;
+	font-family:Titillium Web Bold;
+	background-color:#21ce99;
+	padding:.375rem 20px;
+}
+.btn_yes:hover{
+	background-color:#f5f5f5;
+	color:#21ce99;
+}
+.btn_no:hover{
+	background-color:#ff335b;
+	color:#f5f5f5;
+}
+.modal_2_part_3{
+	//border:1px solid #000;
+	max-width:16%;
+	margin-top:50px;
+	margin-bottom:25px;
+}
+.modal_3_part_3{
+	//border:1px solid #000;
+	max-width:27%;
+	margin-top:30px;
+	margin-bottom:25px;
+}
+.close_btn{
+	padding-top:20px;
+	padding-right:50px;
+}
+.check_icon{
+	width:100px;
+	margin-bottom:40px;
+	margin-top:10px;
+}
+#modalConfirmation{
+	padding-right:115px;
+}
+#modalConfirmed{
+	padding-right:115px;
+}

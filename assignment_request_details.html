@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/assignment_request_details.css" rel="stylesheet">
+  </head>
+  <body>
+	<button type="button" class="btn" data-toggle="modal" data-target="#myModal">Assignments Details</button>
+	<button type="button" class="btn" data-toggle="modal" data-target="#modalConfirmation">Confirmation</button>
+	<button type="button" class="btn" data-toggle="modal" data-target="#modalConfirmed">Confirmed</button>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog  modal-lg modal-dialog-scrollable">
+			<div class="modal-content myModal">
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-12 mx-auto d-block">
+							<div class="ass-modal-header">
+								<h4 class="modal-title twbfont">Assignment request details</h4>
+									<button type="button" class="close" data-dismiss="modal"><img src="svg/close_icon_1.svg" class="img-fluid messages-close-icon"></button>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="text_area">
+								<p class="twbfont">To program a 2D game in XCode / Swift<br><span class="twifont" style="color:grey;">Steffan M.</span></p>
+								<p class="twrfont">It is a turn-based role-playing game (RPG) with an online connection (currently Firebase) in the style of Phantasy (SSI).
+								A demo exists, but since I'm not a professional programmer, the code is pretty inflexible, so I'm looking for capable
+								programmers to implement the concept into a clever codebase.</p>
+								<p class="twrfont">(Graphics and items should be created later via a database).<br>
+								The demo that contains everything but one module is currently 7500 lines of code long<br>
+								The entire concept consists of 4 modules.<br>
+								Of course, only individual modules can be programmed.<br>
+								Modules are:<br>
+								- (Login via Firebase<br>
+								- Character creation<br>
+								- Party compilation, equip character ...<br>
+								- Navigation on the world map<br>
+								- Struggle<br>
+								requirements:<br>
+								- Swift / XCode<br>
+								- Firebase data connection<br>
+								- Auto adjustment to display resolution, so it is compatible with both iPhone and iPad<br>
+								Timeframe:<br>
+								- Flexible, because hobby project</p>
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="tags_box twrfont">
+								<div class="tags_box_single">
+									<input type="checkbox" name="skill_1" value="javaexpert" class="checkbox"><p class="twrfont">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+								</div>
+								<div class="tags_box_single">
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+								</div>
+								<div class="tags_box_single">
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+								</div>
+								<div class="tags_box_single">
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+									<p class="twrfont"><input type="checkbox" name="skill_1" value="javaexpert" class="checkbox">Tag 1</p>
+								</div> 
+							</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="footer_buttons_box">
+								<button type="button" class="btn btn_accept">ACCEPT</button>
+								<button type="button" class="btn btn_decline">DECLINE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modalConfirmation">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content myModal">
+				<div class="col-lg-12 close_btn">
+					<button type="button" class="close" data-dismiss="modal"><img src="svg/close_icon_1.svg" class="img-fluid messages-close-icon"></button>
+				</div>
+				<div class="col-lg-12">
+					<div class="modal_2_part_2">
+						<p class="twbfont">ARE YOU SURE YOU WANT TO ACCEPT THE ASSIGNMENT</p><br><br><br>
+						<p class="twbfont">To program a 2D game in XCode/Swift</p>
+						<p class="twifont" style="color:grey;">Stefan K.</p>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="modal_2_part_3 mx-auto d-block">
+						<button type="button" class="btn btn_yes">YES</button>
+						<button type="button" class="btn btn_no">NO</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modalConfirmed">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content myModal">
+				<div class="col-lg-12 close_btn">
+					<button type="button" class="close" data-dismiss="modal"><img src="svg/close_icon_1.svg" class="img-fluid messages-close-icon"></button>
+				</div>
+				<div class="col-lg-12">
+					<div class="modal_2_part_2">
+						<img src="svg/check_icon.svg" class="img-fluid check_icon">
+						<p class="twbfont">ASSIGNMENT ACCEPTED SUCCESSFULLY.</p>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="modal_3_part_3 mx-auto d-block">
+						<button type="button" class="btn btn_no">BACK TO ALL ASSIGNMENTS</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--js plugins-->
+    <script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/superplaceholder.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/myscript.js"></script>
+  </body>
+</html>

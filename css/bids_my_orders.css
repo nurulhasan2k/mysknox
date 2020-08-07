@@ -1,0 +1,245 @@
+@font-face{
+	font-family: Titillium Web SemiBold;
+	src : url(../ext_fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+	font-family: Titillium Web;
+	src : url(../ext_fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+	font-family: Titillium Web Bold;
+	src : url(../ext_fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face{
+	font-family: Titillium Web Italic;
+	src : url(../ext_fonts/TitilliumWeb-RegularItalic.ttf);
+}
+.navbar-1{
+	font-weight:;
+	font-family:Titillium Web Bold;
+	border-bottom:2px solid #e5e5e5;
+	background-color:#fff;
+}
+.navbar-brand img{
+	width:170px;
+}
+.navbar-1-links{
+	line-height:1.2;
+}
+.navbar-1-single-link{
+	color:#000;
+	margin-right:20px;
+	margin-left:20px;
+}
+.navbar-1-single-link:hover{
+	color:#21ce99;
+}
+@media only screen and (max-width:991px){
+	.navbar-1-buttons{
+		margin-top:30px;
+	}
+}
+.navbar-1-button-login{
+	margin-right:30px;
+	background-color:#fff;
+}
+.navbar-1-button-login:hover{
+	color:#21ce99;
+}
+.navbar-1-button-register{
+	background-color:#21ce99;
+	border-radius:20px;
+	color:#fff;
+	border:2px solid #21ce99;
+	padding-right:25px;
+	padding-left:25px;
+}
+.navbar-1-button-register:hover{
+	background-color:#fff;
+	color:#21ce99;
+}
+.twrfont{
+	font-family:Titillium Web;
+}
+.twsfont{
+	font-family:Titillium Web SemiBold;
+}
+.twbfont{
+	font-family:Titillium Web Bold;
+}
+.twifont{
+	font-family:Titillium Web Italic;
+}
+.main_box{
+	padding-right:85px;
+	padding-left:85px;
+	padding-top:115px;
+	padding-bottom:100px;
+}
+.project_bids_title{
+	text-align:center;
+}
+.search-assignments-form{
+	margin-top:18px;
+	border-radius:25px;
+	border:1px solid #000;
+	padding-left:12px;
+}
+.search-assignments-input{
+	//border-top-left-radius:20px;
+	//border-bottom-left-radius:20px;
+	border:none;
+	font-family:Titillium Web;
+}
+.search-assignments-input:focus{
+	box-shadow:none;
+}
+.search-assignments-button:focus{
+	box-shadow:none;
+}
+.search-assignments-button{
+	background-color:#fff;
+	padding:0px;
+}
+.search-assignments-button-icon{
+	width:20px;
+}
+.des_order{
+	width:17px;
+}
+.btn-des-order{
+	padding:1px 8px;
+	border-radius:30px;
+	background-color:#21ce99;
+}
+.asc_order{
+	width:17px;
+}
+.btn_asc_order{
+	background-color:#fff;
+}
+.btn_sort_by{
+	margin-right:20px;
+	padding:.375rem 17px;
+	border:1.4px solid #000;
+	border-radius:20px;
+	background-color:#fff;
+}
+.btn_filter{
+	margin-right:20px;
+	padding:.375rem 17px;
+	border:1.4px solid #000;
+	border-radius:20px;
+	background-color:#fff;
+	float:left;
+}
+.dropdown{
+	float:left;
+}
+.filter_icon{
+	margin-right:10px;
+	width:17px;
+}
+.down_arrow{
+	margin-left:15px;
+	width:17px;
+}
+.sort_by_p{
+	margin-bottom:0;
+}
+.by_box{
+	//border:1px solid #000;
+	margin-bottom:15px;
+	float:right;
+	margin-top:17px;
+}
+.jd_pic{
+	border-radius:50%;
+	width:85px;
+	height:85px;
+}
+.project_list_box{
+	margin-top:35px;
+	//border:1px solid #000;
+	border-radius:10px;
+	box-shadow:0px 0px 10px 0px lightgrey;
+}
+.star_icon{
+	margin-right:10px;
+	margin-top:4px;
+	float:left;
+	width:17px;
+}
+.jd_pic_box{
+	margin-top:27px;
+	margin-left:50px;
+}
+.name_box{
+	margin-top:10px;
+	margin-left:44px;
+}
+.rating_box{
+	margin-left:53px;
+	margin-bottom:27px;
+}
+.skills_column_1{
+	margin-right:50px;
+	float:left;
+}
+.checkbox{
+	float:left;
+	margin-top:6px;
+	margin-right:15px;
+}
+.skill_columns{
+	margin-top:20px;
+}
+.project_single_title{
+	margin-top:25px;
+}
+.price_box{
+	margin-top:37px;
+	line-height:0.5;
+}
+.btn_message{
+	margin-right:15px;
+	border:1.4px solid #21ce99;
+	background-color:#21ce99;
+	color:#fff;
+	font-family:Titillium Web Bold;
+	border-radius:20px;
+	padding:.375rem 25px;
+}
+.btn_message:hover{
+	background-color:#fff;
+	color:#21ce99;
+}
+.btn_request{
+	border:1.4px solid #21ce99;
+	background-color:#fff;
+	color:#21ce99;
+	font-family:Titillium Web Bold;
+	border-radius:20px;
+	padding:.375rem 25px;
+}
+.btn_request:hover{
+	background-color:#21ce99;
+	color:#fff;
+}
+.bids_buttons{
+	margin-top:50px;
+}
+.project_list_box_row{
+	//margin-left:40px;
+}
+.skills_main_box{
+	max-width:39.666667%;
+	//margin-right:30px;
+}
+.profile_info_box{
+	margin-right:20px;
+}
+.price_main_box{
+	max-width:35.666667%;
+	margin-left:30px;
+}

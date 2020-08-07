@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/tab_pills.css" rel="stylesheet">
+  </head>
+  <body>
+	<div class="row">
+	<div class="col-lg-6">
+			<div class="illus">
+				<img src="svg/developer_signin_illus.svg" class="img-fluid developer_signin_illus">
+			</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="pill_main_box">
+	<ul class="nav nav-pills">
+		<li class="active pill_head pill_login_li"><a href="#login" data-toggle="pill" class="pill_login_head">LOG IN</a><hr class="hr_1"></li>
+		<li class="pill_head pill_signup_li"><a href="#signup" data-toggle="pill" class="pill_signup_head">SIGN UP</a><hr class="hr_2"></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane in active" id="login">
+			<div class="col-lg-12 login-body login_item">
+					<div class="login-body-in">
+					<img src="svg/nav_logo.svg" class="img-fluid logo">
+					<div class="line-height">
+					<h4 class="twbfont">Already registered?</h4>
+					<p class="twrfont">Log in now!</p>
+					</div>
+					<form class="login-form">
+					<div class="form-group">
+						<input type="email" class="twrfont form-control email-pwd-input mb-2 mr-sm-2" placeholder="Enter your email or username">
+					</div>
+					<div class="form-group">
+						<input type="pwd" class="twrfont form-control email-pwd-input mb-2 mr-sm-2" placeholder="Enter your password">
+					</div>
+					<div class="form-group form-check mb-2 mr-sm-2">
+						<label class="form-check-label">
+							<input type="checkbox" class="form-check-input"><small class="twrfont remember">Remember Credentials</small>
+						</label>
+					</div>
+					<button type="submit" class="btn login-button twsfont">LOG IN</button><a href="#" class="twrfont forgot_login">Forgot?</a>
+				</form>
+				</div>
+				</div>
+		</div>
+		<div class="tab-pane fade" id="signup">
+			<div class="col-lg-12 signup-body signup_item">
+					<div class="signup-body-in">
+					<img src="svg/logo_white.png" class="img-fluid logo_signup">
+					<div class="line-height">
+					<h4 class="twbfont" style="color:#fff;">Are you a developer?</h4>
+					<p class="twrfont"  style="color:#fff;">Create your account now!</p>
+					</div>
+					<form class="login-form">
+						<div class="form-group">
+							<input type="email" class="twrfont form-control sign-email-pwd-input mb-2 mr-sm-2" placeholder="Enter your email">
+						</div>
+						<div class="form-group">
+							<input type="email" class="twrfont form-control sign-email-pwd-input mb-2 mr-sm-2" placeholder="Choose a username">
+						</div>
+						<div class="form-group">
+							<input type="pwd" class="twrfont form-control sign-email-pwd-input mb-2 mr-sm-2" placeholder="Write your password">
+						</div>
+						<div class="form-group">
+							<input type="pwd" class="twrfont form-control sign-email-pwd-input mb-2 mr-sm-2" placeholder="Repeat your password">
+						</div>
+						<div class="form-group">
+							<select class="twrfont form-control input-select mb-2 mr-sm-2">
+								<option>Choose Specialities</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+						<button type="submit" class="btn sign-login-button twsfont">SIGN UP</button>
+				</form>
+				</div>
+				</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!--js plugins-->
+    <script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/superplaceholder.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/tab_pill.js"></script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+body{
+	background-image: url("../svg/developer_signin_bg.svg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+@font-face{
+	font-family: Titillium Web SemiBold;
+	src : url(../ext_fonts/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+	font-family: Titillium Web;
+	src : url(../ext_fonts/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+	font-family: Titillium Web Bold;
+	src : url(../ext_fonts/TitilliumWeb-Bold.ttf);
+}
+.twrfont{
+	font-family:Titillium Web;
+}
+.twsfont{
+	font-family:Titillium Web SemiBold;
+}
+.twbfont{
+	font-family:Titillium Web Bold;
+}
+.pill_head{
+	font-family:Titillium Web Bold;
+}
+.pill_login_head{
+	color:#000;
+}
+.pill_login_head:hover{
+	color:#21ce99;
+	text-decoration:none;
+}
+.pill_signup_head{
+	color:#fff;
+}
+.pill_signup_head:hover{
+	color:#21ce99;
+	text-decoration:none;
+}
+.pill_login_li{
+	margin-right:2px;
+	width: 199px;
+    text-align: center;
+    padding-top:20px;
+	padding-bottom:5px;
+    border-top-left-radius: 25px;
+	background-color:#fff;
+}
+.pill_signup_li{
+	width: 199px;
+    text-align: center;
+    padding-top:20px;
+	padding-bottom:5px;
+    border-top-right-radius: 25px;
+	background-color:#10494f;
+}
+.pill_main_box{
+	box-shadow: 0px 0px 20px 0px lightgrey;
+	border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-top:100px;
+    width: 400px;
+	//border:1px solid #000;
+	margin-bottom:90px;
+}
+.logo{
+	margin-bottom:30px;
+	width:110px;
+}
+.logo_signup{
+	width:140px;
+}
+.email-pwd-input:focus{
+	background-color: transparent;
+	box-shadow:none;
+	border-bottom:1px solid #21ce99;
+}
+.email-pwd-input{
+	border-bottom: 1px solid #000;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px;
+}
+.form-control{
+	padding:0px .75rem;
+}
+.login-button{
+	margin-top:10px;
+	border-radius:20px;
+	background-color:#21ce99;
+	color:#fff;
+	border:1.5px solid #21ce99;
+	padding:.375rem 25px;
+	margin-bottom:15px;
+}
+.login-button:hover{
+	background-color:transparent;
+	color:#21ce99;
+}
+.forgot_login{
+	color:grey;
+	margin-left:64px;
+	//margin-top:100px;
+}
+.forgot_login:hover{
+	color:#21ce99;
+}
+.remember{
+	font-size:7.5pt;
+}
+select.form-control:not([size]):not([multiple]){
+	height: calc(1.5rem + 2px);
+}
+.sign-login-button{
+	margin-top:10px;
+	border-radius:20px;
+	background-color:#21ce99;
+	color:#fff;
+	border:1.5px solid #21ce99;
+	padding:.375rem 25px;
+	margin-bottom:30px;
+}
+.sign-login-button:hover{
+	background-color:transparent;
+	color:#21ce99;
+}
+.input-select{
+	background-color:transparent;
+	border-bottom:1px solid #fff;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	border-radius:0px;
+	color:grey;
+}
+.input-select:focus{
+	color:#000;
+	background-color: transparent;
+	box-shadow:none;
+	border-bottom:1px solid #21ce99;
+}
+.sign-email-pwd-input{
+	color:#fff;
+	background-color:transparent;
+	border-bottom:1px solid #fff;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	border-radius:0px;
+}
+.sign-email-pwd-input:focus{
+	color:#fff;
+	background-color: transparent;
+	box-shadow:none;
+	border-bottom:1px solid #21ce99;
+}
+.signup-body{
+	border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+	background-color:#10494f;
+}
+.developer_signin_illus{
+	width:350px;
+}
+.illus{
+	margin-top:150px;
+	margin-left:150px;
+}
+.login-body{
+	border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #fff;
+}
+.login-body-in{
+	margin-right:50px;
+	margin-left:50px;
+	padding-top:40px;
+	padding-bottom:95px;
+}
+.form-check-input {
+    margin-top: 0px;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: -1.25rem;
+}
+.signup-body-in{
+	margin-right:50px;
+	margin-left:50px;
+	padding-top:40px;
+}
+.form-control::-webkit-input-placeholder{
+	color:#b1abab;
+}
+.form-control::-moz-placeholder{
+	color:#b1abab;
+}
+.line-height{
+	line-height:0.5;
+	margin-bottom:37px;
+}
+.hr_1{
+	border:2px solid #21ce99;
+	margin: 5px 73px;
+}
+.hr_2{
+	border:2px solid #21ce99;
+	margin: 5px 68px;
+	display:none;
+}
